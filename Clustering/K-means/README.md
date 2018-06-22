@@ -14,6 +14,6 @@ For more information on the blog: http://nife0719.blog.me/221033414774
 ## Example Application
 
 
-![What is K-means] (https://github.com/yoondowon/Machine_Learning_Study/blob/master/Clustering/K-means/Kmeans_1.png)
+![What is K-means] (Kmeans_1.png)
 
 
