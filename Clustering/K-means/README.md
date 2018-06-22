@@ -13,8 +13,10 @@ For more information on the blog: http://nife0719.blog.me/221033414774
 
 ## Example Application
 
+## Example Application
+![ExampleApplication]
 
-![What is K-means] Kmeans_1.jpg
+[ExampleApplication]: Kmeans_1.jpg
 
 
 
