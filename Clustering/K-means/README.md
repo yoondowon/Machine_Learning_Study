@@ -3,7 +3,7 @@ dd
 
 For more information on the blog: http://nife0719.blog.me/221033414774 
 
-## Cluster Analysis
+## Description
 ![Kmeans1]
 
 [Kmeans1]: Kmeans_1.png
@@ -12,6 +12,30 @@ For more information on the blog: http://nife0719.blog.me/221033414774
 
 [Kmeans2]: Kmeans_2.png
 
+
+![Kmeans3]
+
+[Kmeans3]: Kmeans_3.png
+
+
+![Kmeans4]
+
+[Kmeans4]: Kmeans_4.png
+
+
+![Kmeans5]
+
+[Kmeans5]: Kmeans_5.png
+
+
+![Kmeans6]
+
+[Kmeans6]: Kmeans_6.png
+
+
+![Kmeans7]
+
+[Kmeans7]: Kmeans_7.png
 
 
 ### - PHP Code
