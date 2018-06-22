@@ -12,8 +12,6 @@ For more information on the blog: http://nife0719.blog.me/221033414774
 #### * All application source code is uploaded for connect to MySQL Database
 
 ## Example Application
-
-## Example Application
 ![Kmeans]
 
 [Kmeans]: Kmeans_1.png
