@@ -3,19 +3,21 @@ dd
 
 For more information on the blog: http://nife0719.blog.me/221033414774 
 
-## Contents
+## Cluster Analysis
+![Kmeans1]
+![Kmeans2]
+
+[Kmeans1]: Kmeans_1.png
+[Kmeans1]: Kmeans_2.png
+
+
+
 ### - PHP Code
 #### * gettest.php: Select data from MySQL Database
 #### * posttest.php: Insert data into MySQL Database
 
 ### - Android Code
 #### * All application source code is uploaded for connect to MySQL Database
-
-## Example Application
-![Kmeans]
-
-[Kmeans]: Kmeans_1.png
-
 
 
 ```{r setup, include=FALSE}
