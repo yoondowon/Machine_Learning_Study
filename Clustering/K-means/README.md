@@ -5,9 +5,11 @@ For more information on the blog: http://nife0719.blog.me/221033414774
 
 ## Cluster Analysis
 ![Kmeans1]
-![Kmeans2]
 
 [Kmeans1]: Kmeans_1.png
+
+![Kmeans2]
+
 [Kmeans1]: Kmeans_2.png
 
 
