@@ -10,7 +10,7 @@ For more information on the blog: http://nife0719.blog.me/221033414774
 
 ![Kmeans2]
 
-[Kmeans1]: Kmeans_2.png
+[Kmeans2]: Kmeans_2.png
 
 
 
