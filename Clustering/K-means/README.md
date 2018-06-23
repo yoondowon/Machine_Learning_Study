@@ -42,15 +42,47 @@ For more information on the blog: http://nife0719.blog.me/221033414774
 
 ## Basic
 기본 분석내용
-kmeans()
+※ kemans clustering example: https://www.r-bloggers.com/k-means-clustering-in-r/
+
+```{r setup, include=FALSE}
+kmeans(x, centers, iter.max = 10, nstart = 1,
+       algorithm = c("Hartigan-Wong", "Lloyd", "Forgy", "MacQueen"), trace=FALSE)
+## S3 method for class 'kmeans'
+fitted(object, method = c("centers", "classes"), ...)
+```
+library: https://stat.ethz.ch/R-manual/R-devel/library/stats/html/kmeans.html
+
+x: numeric matrix of data, or an object that can be coerced to such a matrix 
+centers: either the number of clusters, say k, or a set of initial (distinct) cluster centres. 
+iter.max: the maximum number of iterations allowed.
+nstart: if centers is a number, how many random sets should be chosen?
+algorithm: character: may be abbreviated. Note that "Lloyd" and "Forgy" are alternative names for one algorithm.
+object: an R object of class "kmeans", typically the result ob of ob <- kmeans(..).
+method: character: may be abbreviated. "centers" causes fitted to return cluster centers (one for each input point) and "classes" causes fitted to return a vector of class assignments.
+trace: logical or integer number, currently only used in the default method ("Hartigan-Wong"): if positive (or true), tracing information on the progress of the algorithm is produced. Higher values may produce more tracing information.
+
+
+
+## Initialization methods
+
 
 ## how to find optimal k number
 ### elbow
+※ elbow method: https://www.r-bloggers.com/finding-optimal-number-of-clusters/
+
 #### elbow code로 파악할 수 있는 것 만들어 보고 싶음
 
+
+
 ## cluster validation
-### nbclust
+### Internal evaluation 
+#### nbclust
+※
+
 #### 각각의 index 정의 및 이해
+
+### External evaluation
+이미 결과의 정답을 알고 있는 경우
 
 ## cluster visualization
 ### plot
