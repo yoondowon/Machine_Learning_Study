@@ -53,12 +53,19 @@ fitted(object, method = c("centers", "classes"), ...)
 library: https://stat.ethz.ch/R-manual/R-devel/library/stats/html/kmeans.html
 
 x: numeric matrix of data, or an object that can be coerced to such a matrix 
+
 centers: either the number of clusters, say k, or a set of initial (distinct) cluster centres. 
+
 iter.max: the maximum number of iterations allowed.
+
 nstart: if centers is a number, how many random sets should be chosen?
+
 algorithm: character: may be abbreviated. Note that "Lloyd" and "Forgy" are alternative names for one algorithm.
+
 object: an R object of class "kmeans", typically the result ob of ob <- kmeans(..).
+
 method: character: may be abbreviated. "centers" causes fitted to return cluster centers (one for each input point) and "classes" causes fitted to return a vector of class assignments.
+
 trace: logical or integer number, currently only used in the default method ("Hartigan-Wong"): if positive (or true), tracing information on the progress of the algorithm is produced. Higher values may produce more tracing information.
 
 
