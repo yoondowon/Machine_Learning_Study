@@ -4,6 +4,8 @@ dd
 For more information on the blog: http://nife0719.blog.me/221033414774 
 
 ## Description
+### ※ Download file in here: https://drive.google.com/open?id=0B9eALrnw2M_iRDZUcWNFRVZXYnc
+
 ![Kmeans1]
 
 [Kmeans1]: Kmeans_1.png
