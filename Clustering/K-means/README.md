@@ -73,6 +73,24 @@ library: https://stat.ethz.ch/R-manual/R-devel/library/stats/html/kmeans.html
 ## Initialization methods
 
 
+### 직접 지정
+```
+## Your centers
+C1 <- c(1, 2)
+C2 <- c(4, -5)
+
+## Simulate some data with groups around these centers
+library(MASS)
+set.seed(0)
+dat <- rbind(mvrnorm(100, mu=C1, Sigma = matrix(c(2,3,3,10), 2)),
+             mvrnorm(100, mu=C2, Sigma = matrix(c(10,3,3,2), 2)))
+
+clusts <- kmeans(dat, rbind(C1, C2))  # get clusters with your center starting points
+
+## Look at them
+plot(dat, col=clusts$cluster)
+```
+
 ## how to find optimal k number
 ### elbow
 ※ elbow method: https://www.r-bloggers.com/finding-optimal-number-of-clusters/
