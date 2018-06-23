@@ -71,7 +71,18 @@ library: https://stat.ethz.ch/R-manual/R-devel/library/stats/html/kmeans.html
 
 
 ## Initialization methods
+※ kemans Initialization methods: https://www.slideshare.net/djempol/kmeans-initialization-15041920
 
+### Random Partition
+
+### Forgy
+
+### MacQueen
+
+### Kaufman
+
+### Hartigan-Wong
+이건 
 
 ### 직접 지정
 ```
@@ -91,17 +102,29 @@ clusts <- kmeans(dat, rbind(C1, C2))  # get clusters with your center starting p
 plot(dat, col=clusts$cluster)
 ```
 
+## 클러스터 계산법
+
+SSE
+
+
 ## how to find optimal k number
 ### elbow
 ※ elbow method: https://www.r-bloggers.com/finding-optimal-number-of-clusters/
 
 #### elbow code로 파악할 수 있는 것 만들어 보고 싶음
 
+### Silhouette
+※ Silhouette method: https://stackoverflow.com/questions/15376075/cluster-analysis-in-r-determine-the-optimal-number-of-clusters
 
 
 ## cluster validation
+site: http://www.sthda.com/english/articles/29-cluster-validation-essentials/97-cluster-validation-statistics-must-know-methods/#internal-clustering-validation-measures
+
 ### Internal evaluation 
-#### nbclust
+
+#### 굉장히 다양 (Davies-Bouldin index, Dunn index, Silhouette ...)
+※ nbclust library: https://cran.r-project.org/web/packages/NbClust/NbClust.pdf
+
 ※
 
 #### 각각의 index 정의 및 이해
@@ -109,26 +132,15 @@ plot(dat, col=clusts$cluster)
 ### External evaluation
 이미 결과의 정답을 알고 있는 경우
 
+#### Rand measure
+
+#### F-measure
+
+#### Jaccard index
+
 ## cluster visualization
 ### plot
 ### ggplot
 #### ggplot으로 좀 더 이쁘게 그리는 것 만들어 보고 싶음
 
 
-#### * gettest.php: Select data from MySQL Database
-#### * posttest.php: Insert data into MySQL Database
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
