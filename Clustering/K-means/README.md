@@ -108,21 +108,34 @@ SSE
 
 ## feature selection 
 https://stats.stackexchange.com/questions/177796/feature-selection-for-clustering-problems | r - Feature selection for clustering problems - Cross Validated
+
 http://www.simafore.com/blog/learning-data-science-feature-selection-for-clustering | Learning Data Science: feature selection for clustering
+
 http://www.simafore.com/blog/bid/61220/How-to-perform-feature-selection-for-predictive-analytics | How to perform feature selection for predictive analytics
+
 https://pdfs.semanticscholar.org/f116/7e2e1fa07cdf432c10beb373e07efd6a5e58.pdf | C:/Users/jiliang/Dropbox/FS_Clutering_BOOK_Chapter/chapter.dvi
+
 https://en.proft.me/2016/06/18/exploring-k-means-clustering-analysis-r/ | Exploring K-Means clustering analysis in R | en.proft.me
+
 https://stats.stackexchange.com/questions/108743/methods-in-r-or-python-to-perform-feature-selection-in-unsupervised-learning | Methods in R or Python to perform feature selection in unsupervised learning - Cross Validated
 
 ## categorical data 
 https://www.quora.com/How-do-we-apply-k-means-clustering-algorithm-for-mixed-data-numeric-and-categorical | How do we apply k-means clustering algorithm for mixed data-numeric and categorical? - Quora
+
 https://grid.cs.gsu.edu/~wkim/index_files/papers/kprototype.pdf | Microsoft Word - pakdd.doc
+
 http://edu.cs.uni-magdeburg.de/EC/lehre/sommersemester-2013/wissenschaftliches-schreiben-in-der-informatik/publikationen-fuer-studentische-vortraege/kMeansMixedCatNum.pdf | doi:10.1016/j.datak.2007.03.016
+
 https://www.r-bloggers.com/clustering-mixed-data-types-in-r/ | Clustering Mixed Data Types in R | R-bloggers
+
 http://www.cs.ust.hk/~qyang/Teaching/537/Papers/huang98extensions.pdf | huang98extensions.pdf
+
 https://shapeofdata.wordpress.com/2014/03/04/k-modes/ | K-modes | The Shape of Data
+
 https://dabblingwithdata.wordpress.com/2016/10/10/clustering-categorical-data-with-r/ | Clustering categorical data with R – Dabbling with Data
+
 https://m.blog.naver.com/leedk1110/220792605053 | [R] 군집분석/ 클러스터링 -2 : K-Means : 네이버 블로그
+
 https://woosa7.github.io/R-%EA%B5%B0%EC%A7%91%EB%B6%84%EC%84%9D-Clustering/ | 군집분석 Clustering
 
 
