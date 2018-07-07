@@ -3,6 +3,8 @@ dd
 
 For more information on the blog: http://nife0719.blog.me/221033414774 
 
+kmeans vs. dbscan: https://arogozhnikov.github.io/2017/07/10/opera-clustering.html
+
 ## Description
 ※ Download file in here: https://drive.google.com/open?id=0B9eALrnw2M_iRDZUcWNFRVZXYnc
 
